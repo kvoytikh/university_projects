@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 1440px;
+    height: 1923px;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+
+    background: #F57AA7;
+}
+
+.main_menu {
+    position: absolute;
+    width: 1200px;
+    height: 62px;
+    left: 120px;
+    top: 31px;
+
+    background: #F57AA7;
+}
+
+.main_menu div {
+    float: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+
+}
+.tag1, .tag2, .tag3 {
+    position: absolute;
+    width: 270px;
+    height: 62px;
+}
+.tag1 {
+    left: 202px;
+    background: #D63E76;
+}
+.tag2 {
+    left: 472px;
+    background: #F57AA7;
+}
+.tag3{
+    left: 742px;
+    background: #F57AA7;
+}
+.main_menu h1 {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-top: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.about_content {
+    position: absolute;
+    width: 470px;
+    height: 390px;
+    left: 210px;
+    top: 180px;
+
+    border: 4px solid #DB8CBA;
+    box-sizing: border-box;
+}
+.about_content .name {
+    /* kristina voytikh */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.about_content .information_about {
+    margin-left: 52px;
+}
+.about_content .information_about p {
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+
+    color: #000000;
+}
+.about_photo {
+    position: absolute;
+    width: 460px;
+    height: 390px;
+    left: 770px;
+    top: 180px;
+
+    background-image: url('../images/my_photo.png');
+    background-size: 100%;
+    border: 1px solid #DB8CBA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.photo_block {
+    position: absolute;
+    width: 1441px;
+    height: 480px;
+    top: 630px;
+
+    background: url('../images/image 1.png');
+}
+.photo_block .welcome {
+    /* WELCOME */
+    margin-left: 802px;
+    margin-top: 37px;
+
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 123px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.photo_block .text {
+    /* On this page you will find the latest information about me. */
+
+    margin-left: 802px;
+
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+
+}
+.more_about_me {
+    position: absolute;
+    width: 390px;
+    height: 79px;
+    left: 802px;
+
+    background: #DB8CBA;
+    border-radius: 50px;
+}
+
+.more_about_me p {
+    text-align: center;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.image2 {
+    position: absolute;
+    width: 380px;
+    height: 483.31px;
+    left: 150px;
+    top: 1188px;
+
+    background: url('../images/5726c334-3ba5-49de-85d4-1fd6cc2ced70.png');
+    background-size: 100%;
+    border-radius: 70px;
+}
+.text_a {
+    /* About me */
+
+    position: absolute;
+    width: 253px;
+    height: 36px;
+    left: 890px;
+    top: 1128px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 65px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.firstp {
+    /* image 3 */
+
+
+    position: absolute;
+    width: 118px;
+    height: 119px;
+    left: 722px;
+    top: 1276px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+    url('../images/e583c540-2cea-4d8d-8b4c-3a9ee4fe6ad0.png');
+    background-size: 100%;
+    border-radius: 100px;
+
+}
+.secondp {
+    position: absolute;
+    width: 118px;
+    height: 119.49px;
+    left: 958px;
+    top: 1279px;
+
+    background: url('../images/1bd4133a-b8a5-4301-9c15-9582bfe9dc8c.png');
+    background-size: 100%;
+    border-radius: 100px;
+}
+.thirdp {
+
+    position: absolute;
+    width: 118px;
+    height: 118.44px;
+    left: 1208px;
+    top: 1280px;
+
+    background: url('../images/9fa1a78a-9b07-4aa9-a608-73a6ea29862c.png');
+    background-size: 100%;
+    border-radius: 100px;
+}
+.text_graduated {
+    /* graduated from school */
+    position: absolute;
+    width: 116px;
+    height: 99px;
+    left: 722px;
+    top: 1410px;
+}
+.text_enterun {
+    /* enter the university */
+    position: absolute;
+    width: 109px;
+    height: 99px;
+    left: 967px;
+    top: 1408px;
+}
+.text_unit {
+    /* Unit Factory */
+
+    position: absolute;
+    width: 93px;
+    height: 73px;
+    left: 1215px;
+    top: 1405px;
+
+}
+.text_graduated, .text_enterun, .text_unit {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+.my_life {
+    position: absolute;
+    width: 390px;
+    height: 79px;
+    left: 818px;
+    top: 1593px;
+
+    background: #D63E76;
+    border-radius: 50px;
+}
+.my_life p {
+    /* my life */
+    left: 967px;
+    top: 1617px;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.line {
+    position: absolute;
+    width: 1440.03px;
+    height: 0px;
+    top: 1759px;
+
+    border: 1px solid rgba(214, 62, 118, 0.3);
+    transform: rotate(-0.4deg);
+}
+
+.contacts {
+    position: absolute;
+    width: 100%;
+    top: 1791px;
+}
+.contacts div {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.contact1 {
+    margin-left: 150px;
+    background: url('../images/Ellipse 1.png');
+}
+.contact2, .contact3, .contact4, .contact5, .contact6 {
+    margin-left: 100px;
+}
+.contact2 {
+    background: url('../images/Ellipse 2.png');
+}
+
+.contact3 {
+    background: url('../images/Ellipse 3.png');
+}
+.contact4 {
+    background: url('../images/Ellipse 4.png');
+}
+.contact5 {
+    background: url('../images/Ellipse 7.png');
+}
+.contact6 {
+    background: url('../images/Ellipse 6.png');
+}
+
