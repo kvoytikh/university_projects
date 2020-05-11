@@ -1,0 +1,77 @@
+.btns-container {
+    width: 100%;
+}
+.btn-cn {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.btn-cn div {
+    width: 189px;
+    height: 50px;
+    margin-top: 96px;
+    margin-right: 45px;
+    background: #4F7942;
+    border-radius: 50px;
+}
+.btn-cn div h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.btn1 {
+    background: #33432A !important;
+}
+
+
+@media (max-width: 900px) {
+    .btns-container {
+        width: 40%;
+    }
+    .btn-cn {
+        flex-direction: column;
+    }
+    .btn-cn div {
+        margin-top: 55px;
+        margin-right: 0px;
+        margin-bottom: 27px;
+        margin-left: 32px;
+    }
+    .vl, .btns-container{
+        float: left;
+    }
+    .vl {
+        border: 0.7px solid #4F7942;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 435px;
+        margin-top: 54px;
+        top: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .btns-container {
+        width: 45%;
+    }
+}
+@media (max-width: 534px) {
+    .btns-container {
+        width: 45%;
+    }
+    .vl {
+        display: none;
+    }
+}
+@media (max-width: 491px) {
+    .btn-cn {
+        margin-left: 50%;
+    }
+}

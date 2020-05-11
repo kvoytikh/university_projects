@@ -1,0 +1,54 @@
+.welcome {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 56px;
+    color: black;
+
+    mix-blend-mode: normal;
+}
+.welcome_img {
+    display: inline-block;
+    margin-top: 9px;
+    margin-left:  46.14%;
+}
+.wel_bot {
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+@media (max-width:992px) {
+    .welcome {
+        margin-top: -40px;
+    }
+    .welcome_img {
+        display: inline-block;
+        margin-top: 6px;
+        margin-left:  38.56%;
+    }
+}
+@media (max-width: 510px) {
+    .welcome {
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 21px;
+        margin-top: 36px;
+    }
+    .welcome_img {
+        display: inline-block;
+        margin-top: 6px;
+        margin-left:  35.56%;
+    }
+}

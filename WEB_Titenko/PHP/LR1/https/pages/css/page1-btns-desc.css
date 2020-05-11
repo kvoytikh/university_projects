@@ -1,0 +1,174 @@
+.desc-cn {
+     width: 100%;
+ }
+.describe {
+    display: flex;
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.describe .fi {
+    margin-left: 188px;
+    margin-top: 111px;
+}
+.describe .txtd {
+    margin-top: 100px;
+    margin-left: 103px;
+}
+.describe .txtd {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.describe .prices {
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+    margin-top: 272px;
+    background: #4F7942;
+    border-radius: 50px;
+    margin-left: -513px;
+}
+.describe .prices h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+@media (min-width: 900px) {
+    .se {
+        display: none;
+    }
+}
+@media (max-width: 1297px) {
+    .describe .txtd {
+        font-size: 40px;
+    }
+    .describe .prices {
+        margin-left: -453px;
+    }
+}
+
+@media (max-width: 1195px) {
+    .describe .txtd {
+        font-size: 36px;
+    }
+    .describe .prices {
+        margin-left: -423px;
+    }
+}
+
+@media (max-width: 1148px) {
+    .describe .txtd {
+        font-size: 32px;
+    }
+    .describe .prices {
+        margin-left: -393px;
+    }
+}
+
+@media (max-width: 1085px) {
+    .describe .prices {
+        margin-left: -413px;
+    }
+    .describe .fi {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 900px){
+    .describe .fi {
+        display: none;
+    }
+    .describe .txtd {
+        margin-top: 45px;
+    }
+    .se {
+        margin-top: 163px;
+        margin-left: -300px;
+    }
+    .describe .prices {
+        margin-left: -313px;
+        margin-top: 421px;
+    }
+}
+
+@media (max-width: 851px) {
+    .describe .txtd {
+        font-size: 28px;
+    }
+    .describe .prices {
+        width: 370px;
+        margin-left: -280px;
+    }
+}
+
+@media (max-width: 777px) {
+    .describe .txtd {
+        font-size: 20px;
+        margin-left: 73px;
+    }
+    .describe .prices {
+        width: 330px;
+        margin-left: -150px;
+    }
+    .se {
+        width: 150px !important;
+        height: 150px !important;
+        margin-left: -270px;
+    }
+    .describe .prices {
+        width: 189px;
+        height: 50px;
+    }
+    .describe .prices h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 29px;
+        /* identical to box height */
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 657px) {
+    .describe .txtd {
+        font-size: 16px;
+        margin-left: 83px;
+    }
+    .se {
+        margin-left: -230px;
+    }
+    .describe .prices {
+        margin-left: -140px;
+    }
+}
+@media (max-width: 641px) {
+    .describe .txtd {
+        font-size: 14px;
+        margin-left: 83px;
+    }
+    .se {
+        margin-left: -230px;
+    }
+    .describe .prices {
+        margin-left: -140px;
+    }
+}
+@media (max-width: 491px) {
+    .describe {
+        display: none;
+    }
+}

@@ -1,0 +1,60 @@
+.btn_cont {
+    width: 100%;
+}
+.buttons {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 112px;
+}
+.buttons div {
+    width: 121px;
+    height: 24px;
+}
+@media (min-width: 1440px) {
+    .buttons {
+        display: none;
+    }
+}
+@media (max-width: 1440px) {
+    .buttons {
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .buttons {
+        display: flex;
+        margin-top: 23px;
+        margin-left: 25%;
+    }
+    .buttons div {
+        margin-right: 30%;
+        background-color: #4F7942;
+        border-radius: 50px;
+    }
+    .buttons h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 12px;
+        text-transform: uppercase;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+
+
+@media (max-width: 510px) {
+    .buttons {
+        display: flex;
+        margin-left: 37%;
+        margin-top: 23px;
+        flex-direction: column;
+    }
+    .buttons div {
+        width: 121px;
+        height: 24px;
+        margin-top: 23px;
+    }
+}

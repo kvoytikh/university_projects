@@ -1,0 +1,27 @@
+.content-container .title {
+    margin-left: 10% !important;
+}
+
+@media (max-width: 1158px) {
+    .content-container .title {
+        margin-left: 35% !important;
+    }
+}
+@media (max-width: 538px) {
+    .content-container .title {
+        margin-left: 25% !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .content-container .title {
+        font-size: 22px !important;
+        margin-left: 18% !important;
+    }
+}
+@media (max-width: 230px) {
+    .content-container .title {
+        font-size: 18px !important;
+        margin-left: 18% !important;
+    }
+}

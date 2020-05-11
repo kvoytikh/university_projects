@@ -1,0 +1,135 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+.header-container {
+    width: 100%;
+    background-color: #4F7942;
+}
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 112px;
+    background-color: #4F7942;
+}
+.sites {
+    float: left;
+    margin-left: 93px;
+    padding-top: 39px;
+}
+.sites img {
+    margin-right: 20px;
+}
+.logo img {
+    float: left;
+    margin-top: 19px;
+    margin-left: 20%;
+}
+.tat {
+    display: inline-block;
+    float: left;
+    margin-top: 65px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+.contacts {
+    padding-top: 29px;
+    margin-left: 1198px;
+}
+
+.contacts h1{
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #FFF;
+}
+.email {
+    border-left: 2px solid #ffffff; /* Параметры линии */
+    padding-left: 10px; /* Расстояние от линии до текста */
+}
+
+@media (min-width: 1440px) {
+    .sites-media {
+        display: none;
+    }
+}
+@media (max-width: 1440px) {
+    .header {
+        max-width: 970px;
+    }
+    .sites {
+        margin-left: 60px;
+    }
+
+    .logo img {
+        margin-left: 10%;
+    }
+    .contacts {
+        margin-left: 800px;
+    }
+    .sites-media {
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .header {
+        max-width: 750px;
+    }
+    .sites {
+        display:none;
+    }
+
+    .logo img {
+        margin-left: 27%;
+    }
+    .contacts {
+        display: none;
+    }
+    .sites-media {
+        display: inline;
+        margin-left: -400px;
+    }
+    .sites-media img {
+        display: inline-block;
+        margin-top: 30px;
+        margin-right: 15%;
+    }
+}
+@media (max-width:767px) {
+    .header {
+        max-width: none;
+    }
+    .sites-media {
+        margin-left: -300px;
+    }
+    .sites-media img {
+        display: inline-block;
+        margin-top: 30px;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 478px) {
+    .tat {
+        display: none;
+    }
+    .logo img {
+        margin-left: 15%;
+    }
+    .sites-media {
+        margin-left: -200px;
+    }
+    .sites-media img {
+        display: inline-block;
+        margin-top: 30px;
+        margin-right: 10%;
+    }
+}

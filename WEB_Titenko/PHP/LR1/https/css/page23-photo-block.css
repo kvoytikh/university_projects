@@ -1,0 +1,142 @@
+.pht-container-page2 {
+    width: 100%;
+    background-image: url("../images/image 7.png");
+    background-size: cover;
+}
+.p-pht-cn {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 188px;
+}
+.other img{
+    margin-left: 88px;
+    margin-top: 14px;
+    box-sizing: border-box;
+}
+.other h1 {
+    width: 84px;
+    height: 52px;
+    margin-left: 96px;
+    margin-top: -79px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.search {
+    width: 200px;
+    height: 52px;
+    margin-left: 969px;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+}
+.search h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 52px;
+    /* identical to box height */
+    margin-left: 22px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.place {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    margin-left: 85px;
+
+    color: #FFFFFF;
+}
+
+@media (max-width: 1189px) {
+    .search {
+        margin-left: 900px;
+    }
+}
+@media (max-width: 1115px) {
+        .search {
+            margin-left: 800px;
+        }
+    }
+
+@media (max-width: 1000px) {
+    .search {
+        margin-left: 700px;
+    }
+}
+@media (max-width: 915px) {
+    .place {
+        display: none;
+    }
+    .search {
+        margin-left: 600px;
+    }
+}
+@media (max-width: 811px) {
+    .search {
+        margin-left: 450px;
+    }
+}
+
+@media (max-width: 667px) {
+    .search {
+        margin-left: 350px;
+    }
+}
+@media (max-width: 567px) {
+    .search {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 465px) {
+    .other img {
+        margin-left: 58px;
+    }
+
+    .other h1 {
+        margin-left: 66px;
+
+    }
+    .search {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 397px) {
+    .search {
+        display: none;
+    }
+    .other img {
+        margin-left: 37%;
+    }
+
+    .other h1 {
+        margin-left: 39%;
+
+    }
+    .p-pht-cn {
+        height: 140px;
+    }
+}
+@media (max-width: 220px)  {
+    .other img {
+        margin-left: 32%;
+    }
+
+    .other h1 {
+        margin-left: 34%;
+
+    }
+}
