@@ -70,7 +70,7 @@
             width: 59px;
             height: 52px;
             margin-left: 151px;
-            background: url('../../public/Photoes/HeartIcon.png');
+            background: url('/public/Photoes/HeartIcon.png');
             background-blend-mode: darken;
         }
         .footer {
@@ -83,7 +83,7 @@
     <div class="cat-books first">
         <div class="book first">
             <div class="catalogsbook first">
-                <img src="../../public/Photoes/image 1.png" alt="" class="cat-img">
+                <img src="/Photoes/image 1.png" alt="" class="cat-img">
             </div>
 
             <div class="btn-block">
@@ -93,7 +93,7 @@
         </div>
         <div class="book second">
             <div class="catalogsbook second">
-                <img src="../../public/Photoes/image 2.png" alt="" class="cat-img">
+                <img src="/Photoes/image 2.png" alt="" class="cat-img">
             </div>
             <div class="btn-block">
                 <div class="cat-btn second"></div>
@@ -102,7 +102,7 @@
         </div>
         <div class="book">
             <div class="catalogsbook third">
-                <img src="../../public/Photoes/image 3.png" alt="" class="cat-img">
+                <img src="/Photoes/image 3.png" alt="" class="cat-img">
             </div>
             <div class="btn-block">
                 <div class="cat-btn"></div>
@@ -114,21 +114,21 @@
         <div class="book first">
 
         <div class="catalogsbook fourth">
-            <img src="../../public/Photoes/image 4.png" alt="" class="cat-img"></div>
+            <img src="/Photoes/image 4.png" alt="" class="cat-img"></div>
             <div class="btn-block">
                 <div class="cat-btn first"></div>
                 <div class="heart"></div>
             </div>
         </div>
         <div class="book second">
-        <div class="catalogsbook fifts"><img src="../../public/Photoes/image 5.png" alt="" class="cat-img"></div>
+        <div class="catalogsbook fifts"><img src="/Photoes/image 5.png" alt="" class="cat-img"></div>
             <div class="btn-block">
                 <div class="cat-btn second"></div>
                 <div class="heart"></div>
             </div>
         </div>
         <div class="book">
-            <div class="catalogsbook sexs"><img src="../../public/Photoes/image 6.png" alt="" class="cat-img"></div>
+            <div class="catalogsbook sexs"><img src="/Photoes/image 6.png" alt="" class="cat-img"></div>
             <div class="btn-block">
                 <div class="cat-btn"></div>
                 <div class="heart"></div>

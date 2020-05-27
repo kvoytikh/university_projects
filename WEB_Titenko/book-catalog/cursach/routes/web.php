@@ -14,12 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::get('/basket', function () {
+    return view('basket');
+});
 Route::get('/catalog', function () {
     return view('catalog');
-});
-Route::get('/order', function () {
-    return view('Order');
 });
 Route::get('/janres', function () {
     return view('janres');
@@ -27,6 +26,9 @@ Route::get('/janres', function () {
 Route::get('/main', function () {
     return view('main');
 });
-Route::get('/basket', function () {
-    return view('basket');
+Route::get('/Order', function () {
+    return view('Order');
+});
+Route::get('/Some', function () {
+    return view('Some');
 });

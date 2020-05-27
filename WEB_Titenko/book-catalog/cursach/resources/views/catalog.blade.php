@@ -64,7 +64,6 @@
             margin-top: 34px;
             margin-left: 15px;
 
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 
         .btn-block {
@@ -79,6 +78,20 @@
 
             background: #774D9F;
             border-radius: 10px;
+        }
+
+        .cat-btn h1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 26px;
+            /* identical to box height */
+            margin-top: 15px;
+            text-align: center;
+
+            text-transform: lowercase;
+            color: rgba(255, 255, 255, 0.98);
         }
         .heart {
             width: 59px;
@@ -98,29 +111,29 @@
     <div class="cat-books first">
         <div class="book first">
             <div class="catalogsbook first">
-                <img src="../../public/Photoes/image 1.png" alt="" class="cat-img">
+                <img src="/Photoes/image 1.png" alt="" class="cat-img">
             </div>
 
             <div class="btn-block">
-                <div class="cat-btn first"></div>
+                <div class="cat-btn first"><h1>ОПИСАНИЕ</h1></div>
                 <div class="heart"></div>
             </div>
         </div>
         <div class="book second">
             <div class="catalogsbook second">
-                <img src="../../public/Photoes/image 2.png" alt="" class="cat-img">
+                <img src="/Photoes/image 2.png" alt="" class="cat-img">
             </div>
             <div class="btn-block">
-                <div class="cat-btn second"></div>
+                <div class="cat-btn second"><h1>ОПИСАНИЕ</h1></div>
                 <div class="heart"></div>
             </div>
         </div>
         <div class="book">
             <div class="catalogsbook third">
-                <img src="../../public/Photoes/image 3.png" alt="" class="cat-img">
+                <img src="/Photoes/image 3.png" alt="" class="cat-img">
             </div>
             <div class="btn-block">
-                <div class="cat-btn"></div>
+                <div class="cat-btn"><h1>ОПИСАНИЕ</h1></div>
                 <div class="heart"></div>
             </div>
         </div>
@@ -129,23 +142,23 @@
         <div class="book first">
 
         <div class="catalogsbook fourth">
-            <img src="../../public/Photoes/image 4.png" alt="" class="cat-img"></div>
+            <img src="/Photoes/image 4.png" alt="" class="cat-img"></div>
             <div class="btn-block">
-                <div class="cat-btn first"></div>
+                <div class="cat-btn first"><h1>ОПИСАНИЕ</h1></div>
                 <div class="heart"></div>
             </div>
         </div>
         <div class="book second">
-        <div class="catalogsbook fifts"><img src="../../public/Photoes/image 5.png" alt="" class="cat-img"></div>
+        <div class="catalogsbook fifts"><img src="/Photoes/image 5.png" alt="" class="cat-img"></div>
             <div class="btn-block">
-                <div class="cat-btn second"></div>
+                <div class="cat-btn second"><h1>ОПИСАНИЕ</h1></div>
                 <div class="heart"></div>
             </div>
         </div>
         <div class="book">
-            <div class="catalogsbook sexs"><img src="../../public/Photoes/image 6.png" alt="" class="cat-img"></div>
+            <div class="catalogsbook sexs"><img src="/Photoes/image 6.png" alt="" class="cat-img"></div>
             <div class="btn-block">
-                <div class="cat-btn"></div>
+                <div class="cat-btn"><h1>ОПИСАНИЕ</h1></div>
                 <div class="heart"></div>
             </div>
         </div>
